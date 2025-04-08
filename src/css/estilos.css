@@ -62,12 +62,12 @@ main .personagem .imagem {
     top: 0;
     right: 0;
     width: 180px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    gap: 16px;
 
 }
 .botoes .botao {
@@ -78,7 +78,6 @@ main .personagem .imagem {
     cursor: pointer;
     transition: transform 0.3s ease;
     border-radius: 50%;
-    gap: 16px;
 
 }
 
